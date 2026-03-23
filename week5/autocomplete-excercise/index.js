@@ -21,10 +21,6 @@ function createUL(possibleUNames) {
 
     let ul = document.createElement('ul');
 
-    // ul.childNodes.forEach(child => {
-    //     ul.removeChild(child);
-    // });
-
     possibleUNames.forEach(uName => {
         const li = document.createElement('li');
         li.innerText = uName;
